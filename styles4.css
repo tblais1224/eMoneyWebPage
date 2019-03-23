@@ -440,60 +440,94 @@ span {
 }
 
 .scroll-down-icon {
+    
+    
+    bottom: 20px;
+    left: calc(50% - 10px);
     width: 20px;
-    height: 30px;
-    border: solid 2px gray;
+    
     padding: 0 0 0 0;
-    border-radius: 10px;
-    align-items: center;
+    /*border-radius: 10px;*/
+    /*border: solid 2px #6d6e71;*/
+    height: 30px;
+    background-image: url(https://emoneyadvisor.com/wp-content/themes/emoney/images/scroll-down-icon1.png);
+    background-size: cover;
+    background-position: 0 0;
+    /*width: 20px;*/
+    /*height: 30px;*/
+    /*border: solid 2px #6d6e71;;*/
+    /*padding: 0 0 0 0;*/
+    /*border-radius: 10px;*/
+    /*width: 20px;*/
+    /*height: 30px;*/
+    /*background-image: url(media/scroll-down-icon2.png);*/
+    /*background-size: cover;*/
+    /*background-position: 50 0;*/
     display: flex;
     justify-content: center;
+    align-items:center;
 }
 
-/*.scroll-down-icon:after{*/
+.scroll-down-icon:after {
+    content: '';
+    
+    top: 10px;
+    left: 0;
+    width: 20px;
+    height: 12px;
+    background-image: url(https://emoneyadvisor.com/wp-content/themes/emoney/images/scroll-down-icon2.png);
+    background-size: cover;
+    background-position: 0 0;
 
-/*    content: '';*/
-
-/*    position: absolute;*/
-
-/*    top: 5px;*/
-
-/*    left: 0;*/
-
-/*    width: 20px;*/
-
-/*    height: 12px;*/
-
-/*    background-image: url(media/scroll-down-icon2.png);*/
-
-/*    background-size: cover;*/
-
-/*    background-position: 0 0;*/
-
-/*    -webkit-animation: animationFrames ease-in-out 1.25s;*/
-
-/*    -webkit-animation-iteration-count: infinite;*/
-
-/*    -webkit-transform-origin: 50% 50%;*/
-
-/*}*/
+    animation: animationFrames ease-in-out 1.25s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: animationFrames ease-in-out 1.25s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+}
 
 .thirdsection {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 50px 0px 50px 0px;
+    padding: 0px 0px 50px 0px;
     align-items: center;
-    min-height: 1000px;
-    position: relative;
+    /*min-height: 1000px;*/
+    /*position: relative;*/
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-origin: content-box;
-    background: url("media/emonjeybg1.jpg");
+    background-size: 100% auto;
+    /*background-origin: content-box;*/
+    /*background: url("media/emonjeybg1.jpg");*/
+    background-image: url("https://emoneyadvisor.com/wp-content/uploads/2017/05/em_home_brg2.jpg");
+    height: 947px;
 }
 
 .headparralax {
-    position: fixed;
+
+    padding-bottom: 100px;
+    padding-top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
-    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 43%, rgba(255, 255, 255, 0.78) 70%, rgba(255, 255, 255, 0.65) 86%, rgba(255, 255, 255, 0) 100%);
+
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 43%, rgba(255, 255, 255, 0.78) 68%, rgba(255, 255, 255, 0.65) 73%, rgba(255, 255, 255, 0) 100%);
+}
+
+.parralaxh1 {
+    font-size: 54px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+    background: linear-gradient(135deg, #00b3e3 0%, #00c18b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.parralaxp1 {
+    font-size: 22px;
+    text-align: center;
+    max-width: 845px;
 }
